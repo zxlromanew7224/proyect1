@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+}
+body{
+    background-color: rgb(43, 39, 39);
+}
+h1{
+    margin: 20px 0;
+    padding: 10px;
+    background-color: black;
+}
+.am{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+a{
+    margin: 10px 20px 10px 20px;
+    align-items: center;
+    border: solid 2px none;
+    border-radius: 25px;
+    padding: 10px 30px;
+    background-color: brown;
+    color: white;
+}
+.face{
+    background-color: rgb(20, 73, 134);
+}
+.inst{
+    background-color: rgb(243, 197, 47);
+}
+.contenido{
+    padding: 40px;
+    display: flex;
+
+}
+iframe{
+  
+    margin-top: 20px;
+}
+.slider{
+    
+    width: 500px;
+    background-color: white;
+ 
+    overflow: hidden;
+    height: 300px;
+    margin-top: 20px;
+    
+
+}
+.enviar{
+    color: black;
+}
+
+li, ul{
+    list-style: none;
+}
+.slider ul{
+    display: flex;
+    width: 300%;
+    animation: cambio 10s infinite;
+}
+li{
+    width: 100%;
+}
+img{
+    width: 500px;
+    height: 300px;
+    /*object-fit: cover;*/
+
+}
+@keyframes cambio {
+    0%{margin-left: 0;}
+    30%{margin-left: 0;}
+
+    35%{margin-left: -100%;}
+    65%{margin-left: -100%;}
+
+    70%{margin-left: -200%;}
+    100%{margin-left: -200%;}
+}
+
+/*----formulario-----*/
+.contenedor_formulario{
+    background-color: black;
+    padding-bottom: 20px;
+  
+}
+h2{
+    padding: 20px;
+  
+}
+form{
+    width: 380px;
+    padding: 20px;
+    margin: 20px auto;
+    
+
+}
+form p{
+    font-weight: 550;
+    
+}
+form *{
+    text-align: left;
+    margin-bottom: 5px;
+    display: block;
+    
+ 
+}
+input, textarea{
+    color: black;
+    border: none;
+    padding: 5px;
+}
+input[type=submit]{
+    width: 100px;
+    margin: 10px auto;
+    text-align: center;
+    background-color: rgb(43, 39, 39);
+    border: none;
+   color: white;
+    font-size: large;
+    padding: 5px 10px;
+
+}
